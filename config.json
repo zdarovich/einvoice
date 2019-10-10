@@ -1,0 +1,23 @@
+{
+  "ProdEnv": false,
+  "ProviderData": {
+    "EarveldajaWSDLURL": "",
+    "EArveldajaStatusUpdateDelaySec": 60,
+    "EarveldajaProviderCode": "test"
+  },
+  "Server": {
+    "Port": 8000,
+    "ReadHeaderTimeoutSec": 10,
+    "ReadTimeoutSec": 10,
+    "WriteTimeoutSec": 10,
+    "LogFileName":      "e-invoice.log",
+    "LogFileEnable":      false
+  },
+  "WorkerPoolGoroutines": 100,
+  "Db": {
+    "User": "newuser",
+    "Password": "password",
+    "IP": "127.0.0.1",
+    "Port": "3306"
+  }
+}
